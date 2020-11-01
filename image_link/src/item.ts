@@ -9,7 +9,7 @@ export default class ImageLink implements IScript<Props> {
   init() {}
 
   spawn(host: Entity, props: Props, channel: IChannel) {
-    const entity = new Entity()
+    const sign = new Entity()
     const imageTexture = new Texture(props.image)
     const imageMaterial = new Material()
     
@@ -18,8 +18,8 @@ export default class ImageLink implements IScript<Props> {
     imageMaterial.specularIntensity = 0
     imageMaterial.albedoTexture = imageTexture
 
-    entity.setParent(host)
-    entity.addComponent(new Transform({}))
+    sign.setParent(host)
+    sign.addComponent(new Transform({}))
 
     let plane = new Entity()
     plane.setParent(host)

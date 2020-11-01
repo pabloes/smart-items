@@ -1,6 +1,6 @@
 {
   "id": "7d669c08-c354-45e4-b3a3-c915c8fd6b6e",
-  "name": "ImageLink",
+  "name": "Image with link",
   "tags": ["image", "art", "interactive", "link", "URL"],
   "category": "decorations",
   "model": "models/image_preview.glb",
